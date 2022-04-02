@@ -3,13 +3,10 @@ import { AddToHomeScreen } from "react-pwa-add-to-homescreen";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
+import Contact from "./Contact";
+import Blog from "./Blog";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
 import "./assets/css/preloader.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/meanmenu.css";
@@ -35,6 +32,12 @@ function App() {
           </Route>
           <Route exact path="/service">
             <Services />
+          </Route>
+          <Route exact path="/blog">
+            <Blog />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </Router>

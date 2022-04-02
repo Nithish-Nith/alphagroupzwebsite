@@ -51,8 +51,8 @@ export default () => {
             <div className="row align-items-center">
               <div className="col-xxl-3 col-xl-3 col-lg-2 col-md-6 col-6">
                 <div className="logo">
-                  <a href="index-2.html">
-                    <img src="assets/img/logo/logo.png" alt="logo" />
+                  <a href="#">
+                    <img src={require(`./assets/img/logo-1/logo.png`)} alt="logo" style={{width:"65%"}}/>
                   </a>
                 </div>
               </div>

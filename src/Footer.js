@@ -26,8 +26,8 @@ export default () => {
                 <div className="footer__widget mb-50">
                   <div className="footer__widget-title mb-25">
                     <div className="footer__logo">
-                      <a href="index-2.html">
-                        <img src="assets/img/logo/logo.png" alt="logo" />
+                      <a href="#">
+                      <img src={require(`./assets/img/logo-1/logo.png`)} alt="logo" style={{width:"65%"}}/>
                       </a>
                     </div>
                   </div>
@@ -36,7 +36,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-              <div
+
+              {/* <div
                 className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 wow fadeInUp"
                 data-wow-delay=".5s"
               >
@@ -64,6 +65,7 @@ export default () => {
                   </div>
                 </div>
               </div>
+
               <div
                 className="col-xxl-3 col-xl-2 col-lg-2 col-md-4 col-sm-6 wow fadeInUp"
                 data-wow-delay=".7s"
@@ -92,6 +94,7 @@ export default () => {
                   </div>
                 </div>
               </div>
+
               <div
                 className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 wow fadeInUp"
                 data-wow-delay=".9s"
@@ -119,7 +122,8 @@ export default () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
               <div
                 className="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
                 data-wow-delay="1.2s"
@@ -160,9 +164,9 @@ export default () => {
               <div className="row">
                 <div className="col-xxl-12 wow fadeInUp" data-wow-delay=".5s">
                   <div className="footer__copyright-wrapper text-center">
-                    <p>
+                    <p style={{color:"black"}}>
                       Copyright © 2021 All Rights Reserved passion by{" "}
-                      <a href="#">ThemePure</a>
+                      <a href="#">AlphaGroupz</a>
                     </p>
                   </div>
                 </div>
